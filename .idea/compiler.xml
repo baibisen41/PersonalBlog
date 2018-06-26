@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="personal-blog-server" />
+        <module name="personal-common-dao" />
+        <module name="personal-mall-server" />
+        <module name="personal-spider-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="personal-blog-server" target="1.8" />
+      <module name="personal-common-dao" target="1.8" />
+      <module name="personal-mall-server" target="1.8" />
+      <module name="personal-spider-server" target="1.8" />
+      <module name="PersonalBlog" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

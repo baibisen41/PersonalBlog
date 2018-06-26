@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PersonalBlog.iml" filepath="$PROJECT_DIR$/PersonalBlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-blog-server/personal-blog-server.iml" filepath="$PROJECT_DIR$/personal-blog-server/personal-blog-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-common-dao/personal-common-dao.iml" filepath="$PROJECT_DIR$/personal-common-dao/personal-common-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-mall-server/personal-mall-server.iml" filepath="$PROJECT_DIR$/personal-mall-server/personal-mall-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-spider-server/personal-spider-server.iml" filepath="$PROJECT_DIR$/personal-spider-server/personal-spider-server.iml" />
+    </modules>
+  </component>
+</project>
