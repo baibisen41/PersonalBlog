@@ -15,6 +15,8 @@ public interface PbBlogService {
 
     String getNewsList(Map<String, String> map) throws Exception;
 
+    JSONArray searchBlogList(String searchKey) throws Exception;
+
     JSONArray getTagList() throws Exception;
 
     ModelAndView getBlogDetail(Map<String, Object> map) throws Exception;

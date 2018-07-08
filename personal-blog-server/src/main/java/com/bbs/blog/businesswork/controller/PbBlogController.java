@@ -23,7 +23,7 @@ import java.util.*;
 @Controller
 public class PbBlogController extends BaseController {
 
-    private Logger logger = LoggerFactory.getLogger(PbBlogController.class);
+    private final static Logger logger = LoggerFactory.getLogger(PbBlogController.class);
 
     @Autowired
     private PbBlogService pbBlogService;
@@ -73,6 +73,13 @@ public class PbBlogController extends BaseController {
         ModelAndView modelAndView = pbBlogService.getBlogDetail(map);
         modelAndView.setViewName(ViewRegistration.PB_BLOG_DETAIL);
         return modelAndView;
+    }
+
+    @RequestMapping("/showBlogSearch")
+    @ResponseBody
+    public void showBlogSearch(HttpServletRequest request, HttpServletResponse response) {
+        final String searchKey = getRequestParams(request, "searchKey");
+        logger.info("showBlogSearch searchKey:{}", searchKey);
     }
 
     /**

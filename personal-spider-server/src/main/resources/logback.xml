@@ -2,7 +2,7 @@
 <configuration>
 
 	<!--<property name="LOGHOME" value="/data/dynamicDriverLogs/"/>-->
-	<property name="LOGHOME" value="D:/bbs-workspace-v2/PersonalBlogLogs-v2"/>
+	<property name="LOGHOME" value="D:/bbs-workspace0/PersonalBlogLogs"/>
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{0} - %msg%n</pattern>
@@ -10,10 +10,10 @@
 	</appender>
 
 	<appender name="FILEINFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${LOGHOME}/myblog-info.log</file>
+		<file>${LOGHOME}/spider-info.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- rollover daily -->
-			<fileNamePattern>${LOGHOME}/myblog-info.log.%d{yyyy-MM-dd}</fileNamePattern>
+			<fileNamePattern>${LOGHOME}/spider-info.log.%d{yyyy-MM-dd}</fileNamePattern>
 			<maxHistory>100</maxHistory>
 		</rollingPolicy>
 		<Encoding>UTF-8</Encoding>
@@ -26,7 +26,7 @@
 		<file>${LOGHOME}/myblog-err.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- rollover daily -->
-			<fileNamePattern>${LOGHOME}/myblog-err.log.%d{yyyy-MM-dd}</fileNamePattern>
+			<fileNamePattern>${LOGHOME}/spider-err.log.%d{yyyy-MM-dd}</fileNamePattern>
 			<maxHistory>100</maxHistory>
 		</rollingPolicy>
 		<Encoding>UTF-8</Encoding>

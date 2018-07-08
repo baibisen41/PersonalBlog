@@ -2,7 +2,7 @@
 <configuration>
 
 	<!--<property name="LOGHOME" value="/data/dynamicDriverLogs/"/>-->
-	<property name="LOGHOME" value="D:/bbs-workspace-v2/PersonalBlogLogs-v2"/>
+	<property name="LOGHOME" value="D:/bbs-workspace0/PersonalBlogLogs"/>
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{0} - %msg%n</pattern>

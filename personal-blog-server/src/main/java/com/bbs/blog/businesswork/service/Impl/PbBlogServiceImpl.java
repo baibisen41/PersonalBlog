@@ -120,6 +120,12 @@ public class PbBlogServiceImpl extends BaseServiceImpl implements PbBlogService 
         return JSON.toJSONString(resultMap);
     }
 
+    @Override
+    public JSONArray searchBlogList(String searchKey) throws Exception {
+
+        return null;
+    }
+
     /**
      * 标签列表
      *
