@@ -26,7 +26,7 @@
             var html = "";
             var blogList = $('.blog-hot');
             for (var i = 0; i < data.length; i++) {
-                html += "<li><a href=\"#\"><img src=\""+ data[i].thumbPic +"\"><b>"+ data[i].title +"</b></a>\n"+
+                html += "<li><a href=\"showBlogDetail.do?id="+ data[i].id +"\"><img src=\""+ data[i].thumbPic +"\"><b>"+ data[i].title +"</b></a>\n"+
                         "<p><span class=\"tulanmu\"><a href=\"#\">"+ data[i].tag +"</a></span><span class=\"tutime\">"+ data[i].createDate +"</span></p></li>";
             }
             blogList.append(html);
